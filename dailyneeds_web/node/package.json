@@ -1,0 +1,25 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "fcm-node": "^1.3.0",
+    "http": "0.0.0",
+    "moment": "^2.22.2",
+    "mysql": "^2.16.0",
+    "rand-token": "^0.4.0",
+    "socket.io": "^2.1.1",
+    "underscore": "^1.9.1"
+  }
+}
