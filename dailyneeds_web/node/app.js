@@ -22,18 +22,18 @@ var port = 3001;
     multipleStatements: true
 });*/
 
-url = module.exports = 'http://dailyneeds.co.nz';
-var pool = mysql.createPool({
-    connectionLimit : 100,
-    waitForConnections : true,
-    host     : 'localhost',
-    user     : 'root',
-    password : 'dailyneeds@2019',
-    database : 'dailyneeds',
-    debug    :  false,
-    // waitTimeOut : 28800,
-    multipleStatements: true
-});
+// url = module.exports = 'http://dailyneeds.co.nz';
+// var pool = mysql.createPool({
+//     connectionLimit : 100,
+//     waitForConnections : true,
+//     host     : 'localhost',
+//     user     : 'root',
+//     password : 'dailyneeds@2019',
+//     database : 'dailyneeds',
+//     debug    :  false,
+//     // waitTimeOut : 28800,
+//     multipleStatements: true
+// });
 
 
 c = module.exports = function(arr){  for(var i = 0; i < arguments.length; i++) console.log(arguments[i]); };
